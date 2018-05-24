@@ -25,7 +25,7 @@ body {
 a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
 .btn:not(:disabled):not(.disabled) {
 	text-decoration: none;
-	color: #b25d74;
+	color: #333d50;
 }
 .h3 {
 	margin-bottom: 0;
@@ -74,7 +74,7 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
     -ms-flex-align: center;
     -webkit-align-items: center;
      align-items: center;
-	max-width: 80%;
+	max-width: 60%;
     }
 .title-slide-narrow {
     font-size: 12px;
@@ -127,7 +127,7 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
     -ms-flex-align: center;
     -webkit-align-items: center;
      align-items: center;
-	max-width: 80%;
+	max-width: 60%;
     }
 .title-slide-narrow {
     font-size: 12px;
@@ -181,7 +181,7 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
     -ms-flex-align: center;
     -webkit-align-items: center;
      align-items: center;
-	max-width: 80%;
+	max-width: 60%;
     }
 .title-slide-narrow {
     font-size: 12px;
@@ -196,7 +196,7 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
 	padding: 0;
 }
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 .navplus {
 	background-color: #111212;
 	height: 62px;
@@ -237,7 +237,7 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
     -ms-flex-align: center;
     -webkit-align-items: center;
      align-items: center;
-	max-width: 80%;
+	max-width: 60%;
     }
 .title-slide-narrow {
     font-size: 24px;
@@ -251,9 +251,6 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
 	margin-right: 35px;
 	padding: 0;
 }
-}
-.bg-light {
-	background-color: #ffffff;
 }
 .navbar {
 	background-color: #111212;
@@ -302,9 +299,9 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
     color: #ffffff; 
  } 
 .text4  {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 16px;
     color: #000000; 
  }  
 .text5  {
@@ -312,7 +309,10 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
     font-weight: 800;
     color:#7084a9;
     line-height: 24px;
- }
+}
+.black  {
+    color:#000000;    
+}
 .text-pro {
 	height: 53%;
     width: 100%;
@@ -361,7 +361,10 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
 }
 .bg_ac {
     background-color: #c1cada; 
- }  
+}
+.bg-black {
+	background-color:#111212;
+}
 
 /* Selectbox*/
 .dropdown {
@@ -373,15 +376,16 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
     position: relative;
     font-size: 14px;
     color: #838888;
-    height: 100%;
+    height: 50px;
     text-align: left;
+	vertical-align:middle;
 	margin-left: 15px;
 	width: 230px;
 }
 .dropdown .select {
     cursor: pointer;
     display: block;
-    padding: 10px
+    padding: 17px
 }
 .dropdown .select > i {
     font-size: 14px;
@@ -463,18 +467,22 @@ a, a:hover,.btn-link,.btn-link:active, btn-link:hover,
 .card-title {
 	color: #ffffff;
 	font-size:18px;
+	line-height:38px;
 }
 .accordion .card-header:after {
     font-family: 'FontAwesome';  
     content: "\f0D8";
     float: right;
 	color:#ffffff;
+	padding-top:12px;
 }
 .accordion .card-header.collapsed:after {
 	content: "\f0D7"; 
+	
 }
 .accordion .card-header.collapsed{
 	background-color: #677ca3;
+	
 }
 .bg-footer {
 	opacity: 0.07;
